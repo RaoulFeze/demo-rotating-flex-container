@@ -1,0 +1,23 @@
+.row,
+.column {
+    display: flex;
+    gap: 1rem;
+    background-color: palegoldenrod;
+    margin-bottom: 2rem;
+}
+
+.flex-item {
+    background-color: gainsboro;
+    width: 300px;
+    padding: 1rem;
+}
+
+.row {
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.column {
+    flex-flow: column nowrap;
+    align-items: center;
+}
